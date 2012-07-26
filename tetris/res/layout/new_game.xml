@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_horizontal"
+	    android:background="@drawable/general_bg">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_newgame_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dip"
+        android:paddingBottom="25dip"
+        android:text="New Game"
+        android:textColor="@color/menu_title"
+        android:textSize="24.5sp" />
+
+    <TextView
+        android:id="@+id/txt_newgame_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingLeft="10dip"
+        android:paddingBottom="20dip"
+        android:text="Profile: Denis"
+        android:textColor="@color/menu_submenu"
+        android:textSize="18sp"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#999"/>
+    <TextView
+        android:id="@+id/txt_newgame_difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingLeft="10dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:textColor="@color/menu_submenu"
+        android:textSize="18sp"
+        />
+
+    <SeekBar
+        android:id="@+id/seekb_newgame_difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:max="10"
+        android:progress="4"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"/>
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#999"/>
+    <RelativeLayout        
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dip"
+	    android:layout_marginBottom="10dip"
+	    android:layout_gravity="center_vertical">
+	    
+	    <TextView
+	        android:id="@+id/txt_newgame_showshadow"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:paddingLeft="10dip"
+	        android:text="Show shadow"
+	        android:textColor="@color/menu_submenu"
+	        android:textSize="18sp"
+	        />
+	     <CheckBox 
+	        android:id="@+id/checkbox_newgame_shadow"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:paddingRight="20dip"
+	        android:layout_centerVertical="true"/>
+	   
+    </RelativeLayout>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#999"/>
+	<RelativeLayout        
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:layout_marginTop="10dip"
+	    android:layout_marginBottom="10dip">
+	    
+	    <TextView
+	        android:id="@+id/txt_newgame_cooperative"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:paddingLeft="10dip"
+	        android:text="Cooperative"
+	        android:textColor="@color/menu_submenu"
+	        android:textSize="18sp"
+	        />
+	     <CheckBox 
+	        android:id="@+id/checkbox_newgame_cooperative"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:paddingRight="20dip"/>
+	   
+    </RelativeLayout>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#999"/>
+	
+    <LinearLayout 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="60dip"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_newgame_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="50dip"
+            android:paddingRight="50dip"
+            android:text="Start" />
+        <Button
+            android:id="@+id/btn_newgame_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="50dip"
+            android:paddingRight="50dip"
+            android:text="Back" />
+
+    </LinearLayout>
+</LinearLayout>
+	<TextView
+	        android:id="@+id/txt_start_status"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:textSize="18sp"
+	        android:textColor="@color/green_ok"
+	        android:text="Status: Connected" />
+</RelativeLayout>

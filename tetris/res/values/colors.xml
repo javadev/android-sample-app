@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_title">#33ccff</color>
+    <color name="menu_submenu">#ccffff</color>
+    <color name="green_ok">#33ff33</color>
+    <color name="red_no_connect">#ff0000</color>
+    <color name="grey">#cccccc</color>
+    <color name="black">#000000</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="40dip"
+    android:orientation="horizontal"
+    android:background="@drawable/general_bg">
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/txt_connection_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:paddingBottom="25dip"
+	        android:textSize="24.5sp"
+	        android:textColor="@color/menu_title"
+	        android:text="Multiplayer" />
+	    
+	    <Button 
+	        android:id="@+id/btn_host"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginBottom="15dip"
+	        android:text="Host Game"/>
+	    
+	    <Button 
+	        android:id="@+id/btn_join"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginBottom="15dip"
+	        android:text="Join Game"/>
+	</LinearLayout>	
+</LinearLayout>

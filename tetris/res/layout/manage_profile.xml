@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="40dip"
+    android:orientation="vertical"
+    android:background="@drawable/general_bg">
+    
+    <TextView
+        android:id="@+id/txt_connection_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="25dip"
+        android:text="Manage Profiles"
+        android:textColor="@color/menu_title"
+        android:textSize="24.5sp" />
+
+    <TextView
+        android:id="@+id/txt_connection_subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:text="Saved Profiles"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="280dip">
+        
+        <ListView 
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+        </ListView>
+        
+        <ViewStub 
+            android:id="@android:id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout="@layout/empty_profile_list"/>"
+        
+    </FrameLayout>
+
+    <LinearLayout 
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_manage_new"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="New" />
+        <Button
+            android:id="@+id/btn_manage_select"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select" />
+        <Button
+            android:id="@+id/btn_manage_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete" />
+	</LinearLayout>
+</LinearLayout>
