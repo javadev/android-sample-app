@@ -16,7 +16,7 @@
     <item>
         <clip>
         <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
-            android:src="@drawable/stripe_bg"
+            android:src="@+drawable/stripe_bg"
             android:tileMode="repeat"
             android:antialias="true"
             android:dither="false"

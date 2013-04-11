@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:padding="40dip"
     android:orientation="horizontal"
-    android:background="@drawable/general_bg">
+    android:background="@+drawable/general_bg">
     
 	<LinearLayout 
 	    android:layout_width="fill_parent"

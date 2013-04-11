@@ -2,7 +2,7 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/background">
         <nine-patch
-            android:src="@drawable/screen_progress_inner"
+            android:src="@+drawable/screen_progress_inner"
             android:dither="true"
          />
     </item>
@@ -21,6 +21,6 @@
     </item>
     <item
         android:id="@android:id/progress"
-        android:drawable="@drawable/seekbar_progress_bg"
+        android:drawable="@+drawable/seekbar_progress_bg"
     />
 </layer-list>

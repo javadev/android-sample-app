@@ -12,7 +12,7 @@
 		android:layout_height="wrap_content"
 		android:layout_gravity="center_horizontal"
 		android:scaleType="centerInside"
-		android:src="@drawable/ic_empty_list" />
+		android:src="@+drawable/ic_empty_list" />
 
 	<TextView
 		android:layout_width="wrap_content"
