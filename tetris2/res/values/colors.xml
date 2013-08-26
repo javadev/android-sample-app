@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="muted_red">#ff400010</color>
+    <color name="muted_yellow">#ff404010</color>
+    <color name="muted_blue">#ff101040</color>
+    <color name="muted_green">#ff104010</color>
+    <color name="text_violet">#ff8888ff</color>
+</resources>
